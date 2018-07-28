@@ -3,12 +3,12 @@
   <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
   <br>
     <br>
-  Front-End Performance Checklist
+  Чек-лист производительности фронтенда
   <br>
 </h1>
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 Единственный чек-лист производительности фронтенда, который выполняется быстрее других.</h4>
+<p align="center">Одно простое правило: "Учитывайте производительность при дизайне написании кода"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -23,159 +23,166 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#Как-to-use">Как использовать</a> • <a href="#contributing">Участие в проекте</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 <p align="center">
-    <span>Other Checklists:</span>
+    <span>Другие чек-листы:</span>
     <br>
   🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
 
-## Table of Contents
+## Содержание
 
 1. **[HTML](#html)**
 2. **[CSS](#css)**
-3. **[Fonts](#fonts)**
-4. **[Images](#images)**
+3. **[Шрифты](#fonts)**
+4. **[Изображения](#images)**
 5. **[JavaScript](#javascript)**
-6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#js-frameworks) (in progress)**
+6. **[Сервер](#server) (в процессе)**
+7. **[JS Frameworks](#js-frameworks) (в процессе)**
 
-## Introduction
+## Введение
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+Производительность — огромная тема, но это не всегда забота «бэкенда» или «администратора»: это также ответственность фронтенда. Чек-лист производительности фронтенда — это исчерпывающий список пунктов, которые вы должны проверить или, по крайней мере, знать о них, как фронтенд-разработчик, и применять в свой проект (личный и коммерческий).
 
-### How to use?
+### Как использовать?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+Для каждого правила будет приведён параграф, поясняющий *почему* это правило важно и *как* вы можете его исправить. Для получения более подробной информации вам нужно перейти по ссылкам, которые будут указывать на 🛠 инструменты, 📖 статьи или 📹 средства, которые могут завершить чек-лист.
+
+Все пункты в **Чек-листе производительности фронтенда** необходимы для достижения наивысшей оценки производительности, но вы найдете индикатор, который поможет вам в конечном счёте определить приоритеты некоторых правил. Существует 3 уровня приоритета:
+
+*! [Низкий] [низкий] означает, что элемент имеет ** низкий приоритет **.
+*! [Средний] [средний] означает, что элемент имеет ** средний приоритет. Вы не должны избегать решения этого предмета.
+*! [Высокий] [высокий] означает, что элемент имеет ** высокий приоритет **. Вы не можете избежать соблюдения этого правила и вам необходимо выполнить рекомендуемые исправления.
+
+### Производительность
 
 All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority / impact:
 
-* ![Low][low] means that the item has a **low** priority and impact on your project.
-* ![Medium][medium] means that the item has a **medium** priority and impact on your project. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority and impact on your project. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][низкий] означает, у этого пункта *низкий* приоритет and impact on your project.
+* ![Medium][средний] означает, у этого пункта **medium** приоритет and impact on your project. Вам не следует избегать выполнение этого пункта.
+* ![High][высокий] означает, у этого пункта **high** приоритет and impact on your project. You can't avoid following that rule and implement the corrections recommended.
 
-### Performance tools
+### Инструменты производительности
 
-List of the tools you can use to test or monitor your website or application:
- 
- * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
- * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
+Список инструментов, которые вы можете использовать для тестирования или мониторинга вашего веб-сайта или приложения:
+
+ * 🛠 [WebPagetest - Тест производительности и оптимизации сайта](https://www.webpagetest.org/)
+ * 🛠 ☆ [Dareboost: Проверка скорости и анализ сайта](https://www.dareboost.com/) (используйте купон WPCDD20 для получения скидки 20%)
+ * 🛠 [GTmetrix | Оптимизация производительности и скорости сайта](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
- * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
- * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
- * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
- * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
- * 🛠 [Calibre](https://calibreapp.com/)
- * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
- * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
+ * 🛠 [Pingdom - Тест скорости сайта](https://tools.pingdom.com)
+ * 📖 [Pagespeed - Инструмент и руководство по оптимизации](https://varvy.com/pagespeed/)
+ * 📖 [Сделайте сайты быстрее | Google Developers](https://developers.google.com/speed/)
+ * 🛠 [Sitespeed.io - Добро пожаловать в прекрасный мир веб-оптимизации](https://www.sitespeed.io/)
+ * 🛠 [Calibre](https://calibreapp.com/) - Мониторинг и анализ быстродействия веб-приложений
+ * 🛠 [Dotcom-Tools - Тест скорости сайта и проверка веб-производительности](https://www.dotcom-tools.com/website-speed-test.aspx)
+ * 🛠 [Pingdom - Мониторинг доступности сервера и сайта](https://www.pingdom.com/product/uptime-monitoring/) ([Ссылка на бесплатную регистрацию](https://www.pingdom.com/free))
  * 🛠 [Uptime Robot](https://uptimerobot.com)
- 
-### References
 
- * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
- * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
- * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
- * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+### Справочные руководства
+
+ * 📹 [Стоимость JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
+ * 📖 [Начало работы с анализом производительности во время выполнения | Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+ * 📖 [Состояние веба | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
+ * 📖 [Размер страницы не имеет значения](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
 ---
 
 ## HTML
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Минифицированный HTML:** ![medium] HTML-код минифицирован; комментарии, проблемы и новые строки удалены из файлов-ресурсов, используемых в продакшене.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *Почему:*
+    > Удаление всех ненужных пробелов, комментариев и переводов строк уменьшит размер вашего HTML и ускорит время загрузки страницы сайта и, очевидно, облегчит загрузку сайта вашим пользователям.
 
-    *How:*
-    > ⁃ Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *Как:*
+    > ⁃ У большинства фреймворков есть плагины для обеспечения миницификации веб-страниц. Вы можете использовать кучу NPM-модулей, которые могут делать данную работу автоматически.
 
-    * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
-    * 🛠 [Online HTML Compressor](http://refresh-sf.com)
-    * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
+    * 🛠 [HTML minifier | Минифицировать код](http://minifycode.com/html-minifier/)
+    * 🛠 [Онлайн-сжатие HTML](http://refresh-sf.com)
+    * 📖 [Экспериментирование с HTML-минификатором — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
+- [ ] **Удалить ненужные комментарии:** ![low] Убедитесь, что комментарии удалены из ваших страниц.
 
-    *Why:*
-    > Comments are not really useful for the user then should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
+    *Почему:*
+    > Комментарии не очень полезны для пользователя, поэтому должны быть удалены из файлов для продакшена. Случай, когда вы можете сохранить комментарии — это сохранить источник (происхождение) библиотеки.
 
-    *How:*
-    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
+    *Как:*
+    > ⁃ В большинстве случаев комментарии могут быть удалены, используя плагин для минификации HTML.
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` anymore and should be removed.
+- [ ] **Удалить ненужные атрибуты:** ![low] Атрибутов типов, такие как `type="text/javascript"` или `type="text/css"`, больше не нужны, и их следует удалить.
 
     ```html
-    <!-- Before HTML5 -->
+    <!-- До HTML5 -->
     <script type="text/javascript">
-        // Javascript code
+        // JavaScript-код
     </script>
 
-    <!-- Today -->
+    <!-- В настоящее время -->
     <script>
-        // Javascript code
+        // JavaScript-код
     </script>
     ```
 
-    *Why:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
+    *Почему:*
+    > Атрибуты типов не нужны, поскольку HTML5 подразумевает `text/css` and `text/javascript` по умолчанию. Неиспользованный код следует удалить, если он не используется вашим сайтом или приложением, т.к. это он добавляет больше размера вашим страницам.
 
-    *How:*
-    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
+    *Как:*
+    > ⁃ Убедитесь, что у тегов `<link>` and `<script>` нет атрибутов типа.
 
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
+    * 📖 [Тег Script | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **Всегда размещайте теги подключения CSS до тегов, загружающих JavaScript:** ![high] Убедитесь, что ваш CSS всегда загружается перед JavaScript-кодом.
 
     ```html
-    <!-- Not recommended -->
+    <!-- Не рекомендуется -->
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     <link rel="stylesheet" href="foo.css"/>
 
-    <!-- Recommended -->
+    <!-- Рекомендуется -->
     <link rel="stylesheet" href="foo.css"/>
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *Почему:*
+    > Наличие тегов подключения CSS до любого JavaScript позволяет повысить параллельную загрузку, которая ускоряет время отрисовки страницы браузером.
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *Как:*
+    > ⁃ Убедитесь, что теги `<link>`  и `<style>` в вашем `<head>` всегда находятся перед вашим `<script>`.
 
-    * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
+    * 📖 [Порядок стилей и скриптов для pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
+- [ ] **Сократить количество элементов iframe:** ![high] Используйте элементы `iframe` только в том случае, если у вас нет другой технической возможности. Старайтесь избегать элементов iframe столько, сколько сможете.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться в начало](#table-of-contents)**
 
 ## CSS
 
 ![css]
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Минификация:** ![high] Все CSS-файлы минифицированы, комментарии, проблемы и новые строки удалены из файлов для продакшена.
 
-    *Why:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    *Почему:*
+    > Когда CSS-файлы, содержимое загружается быстрее и меньше данных отправляются клиенту. Важно всегда минифицировать CSS-файлы в продакшене. Это выгодно для любого пользователя, как и для каждого бизнеса, который хочет снизинить расходны на пропускную способность и снизить использование ресурсов.
 
-    *How:*
-    > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
+    *Как:*
+    > ⁃ Используйте инструменты для минификации ваших файлов автоматически automatically до или во время сборки или деплоя.
 
-    * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
+    * 🛠 [Модульный минификатор, основанный на экосистеме PostCSS - cssnano](https://cssnano.co/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
-    * 🛠 [Online CSS Compressor](http://refresh-sf.com)
+    * 🛠 [Онлайн-сжатие CSS](http://refresh-sf.com)
 
 
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **Объединение:** ![medium] CSS-файлы объединены в один файл *(Не всегда действительно для HTTP/2)*.
 
     ```html
-
-    <!-- Not recommended -->
+    <!-- Рекомендуется -->
     <link rel="stylesheet" href="foo.css"/>
     <link rel="stylesheet" href="bar.css"/>
 
@@ -183,425 +190,426 @@ List of the tools you can use to test or monitor your website or application:
     <link rel="stylesheet" href="foobar.css"/>
     ```
 
-    *Why:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    *Почему:*
+    > Если вы все ещё используете HTTP/1, вам по-прежнему нужно объединять ваши файлы, это меньше относится, если ваш сервер использует HTTP/2 (должны быть сделаны тесты).
 
-    *How:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files.
-    ⁃ Ensure, of course, that concatenation does not break your project.
+    *Как:*
+    > ⁃ Используйте онлайн-инструмент или любой другой плагин до или во время вашей сборки или деплоя для объединения файлов.
 
-    * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
-    * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
+    > ⁃ Разумеется, убедитесь, что объединение не нарушило работы вашего проекта.
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+    * 📖 [HTTP: оптимизация доставки приложений - Высокопроизводительная браузерная сеть (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
+    * 📖 [Передовые практики производительности в эру HTTP/2](https://deliciousbrains.com/performance-best-practices-http2/)
+
+- [ ] **Нет блокировки:** ![high] CSS-файлы следует быть неблокируемыми для предотвращения работы с DOM до полной загрузки.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *Why:*
-    > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
+    *Почему:*
+    > CSS-файлы могут блокировать загрузку страницы и задерживать отрисовку вашей страницы. Использование `preload` может на самом деле загружать файлы CSS до того, как браузер начнет показывать содержимое страницы.
 
-    *How:*
-    > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
+    *Как:*
+    > ⁃ Вам нужно добавить атрибут `rel` со значением `preload` и атрибут `as="style"` в элемент `<link>`.
 
     * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
-    * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
-    * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
-    * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
+    * 📖 [Пример использования preload в CSS, используя loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
+    * 📖 [Предварительная загрузка содержимого с помощью rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
+    * 📖 [Предварительная загрузка: что в этом хорошего? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
+- [ ] **Длина CSS-классов:** ![low] Длина ваших классов может иметь (небольшое) воздействие на ваши HTML- и CSS-файлы (в конечном счёте).
 
-    *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
+    *Почему:*
+    > Даже влияние производительности может быть спорным, принятие решения о стратегии именования, используемой в вашем проекте может оказать существенное влияние на удобство сопровождение ваших таблиц стилей. Если вы используете BEM, в некоторых случаях вы можете получить классы, имеющие больше символов, чем необходимо. Всегда важно мудро выбирать ваши имена и пространства имен.
 
-    *How:*
-    > ⁃ Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
+    *Как:*
+    > - Установка ограничения в плане количества символов может быть интересно для некоторых людей, но обеспечение того, чтобы вы не сломали свой сайт в компонентах, может помочь уменьшить количество классов (и определений) и длину ваших классов.
 
-    * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
+    * 🛠 [Сравнение производительности: длинные и короткие классы · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **Неиспользуемый CSS:** ![medium] Удалить неиспользуемые CSS-селекторы.
 
-    *Why:*
-    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
+    *Почему:*
+    > Удаление неиспользуемых CSS-селекторов может уменьшить размер ваших файлов, а затем ускорить загрузку ваших ресурсов.
 
-    *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    *Как:*
+    > ⁃ ⚠️ Всегда проверяйте, не содержит ли код CSS-фреймворка, который вы хотите использовать, еще не включенный код сброса/нормализации стилей. Иногда вам может не понадобиться все, что находится внутри файла сброса/нормализации.
 
-    * 🛠 [UnCSS Online](https://uncss-online.com/)
+    * 🛠 [UnCSS - Онлайн удаление неиспользуемого кода](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+* [ ] **Критичный CSS:** ![high] Критичный CSS (or "above the fold") собирает весь CSS-код, используемый для отрисовки видимой части страницы. Он встраивается перед подключением вашего основного CSS и между `<style></style>` в одну строку (минифицирован, если это возможно).
 
-    *Why:*
-    > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
+    *Почему:*
+    > Встраивание критического CSS помогает ускорить отрисовку веб-страниц, уменьшая количество запросов на сервер.
 
-    *How:*
-    > ⁃ Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
+    *Как:*
+    > ⁃ Сгенерировать критический CSS с помощью онлайн-инструментов или используя такой плагин, который разработал Addy Osmani.
 
-    * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
-    * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
-    * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
-     * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
+    * 📖 [Понимание критического CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+    * 🛠 [Инструмент для генерации критического CSS от Addy Osmani на GitHub](https://github.com/addyosmani/critical).
+    * 📖 [Встраивание критического CSS для лучшей веб-производительности | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
+    * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
+- [ ] **Встраиваемый или встроенный CSS:** ![high] Избегайте использования встраиваемого или встроенного CSS внутри вашего `<body>` (Недействительно для HTTP/2)
 
-    *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
+    *Почему:*
+    > Одна из первых причин — это просто хорошая практика **отделять содержимое от дизайна**. Это также способствует более удобному коду и поддерживать доступность вашего сайта. Что касатается производительности — это уменьшает размер файлов ваших HTML-страниц и время загрузки.
 
-    *How:*
-    > ⁃ Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
+    *Как:*
+    > - Всегда используйте внешние таблицы стилей или встраивайте CSS в ваш `<head>` (и следуйте другим правилам производительности CSS)
 
-    * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
+    * 📖 [Соблюдение передовых практик CSS: избегайте встроенных стилей CSS](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Анализ сложности таблиц стилей:** ![high] Анализ таблиц стилей может помочь вам указать на проблемы, избыточный код и дублирования CSS-селекторов.
 
-    *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    *Почему:*
+    > Иногда у вас могут быть избыточный код или ошибки проверки в вашем CSS, анализ ваших CSS-файлов и устранение этих сложностей может помочь вам ускорить ваши файлы CSS (потому что ваш браузер будет загружать их быстрее)
 
-    *How:*
-    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed above can also help you analysing and correct your code.
+    *Как:*
+    > ⁃ Ваш CSS должен быть организован, использование препроцессора CSS может помочь вам в этом. Некоторые онлайн-инструменты, перечисленные выше, также помогут вам проанализировать и исправить ваш код.
 
-    * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
+    * 🛠 [TestMyCSS | Оптимизация и проверка производительности CSS](http://www.testmycss.com/)
     * 📖 [CSS Stats](https://cssstats.com/)
-    * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
+    * 🛠 [macbre/analyze-css: Анализатор сложности CSS-селекторов и производительности](https://github.com/macbre/analyze-css)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться в начало](#table-of-contents)**
 
-## Fonts
+## Шрифты
 
 ![fonts]
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Форматы шрифтов:** ![medium] Вы используете формат WOFF2 в своем веб-проекте или приложении.
 
-    *Why:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    *Почему:*
+    > Согласно Google, формат сжатия веб-шрифта WFF 2.0 обеспечивает в среднем прирост на 30% по сравнению с WOFF 1.0. Поэтому лучше использовать WOFF 2.0, а WOFF 1.0 в фолбэка и TTF.
 
-    *How:*
-    > ⁃ Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    *Как:*
+    > ⁃ Проверьте перед покупкой нового шрифта, что он доступен в формате WOFF2. Если вы используете бесплатный шрифт, вы всегда можете использовать Font Squirrel для создания всех необходимых вам форматов.
 
-    * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
-    * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
-    * 🛠 [IcoMoon App - Icon Font, SVG, PDF & PNG Generator](https://icomoon.io/app/)
-    * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
+    * 📖 [WOFF 2.0 – Узнайте больше о новом поколении веб-шрифтов и сконвертируйте TTF в WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
+    * 🛠 [Font Squirrel - Создайте собственный набор шрифтов с помощью @font-face](https://www.fontsquirrel.com/tools/webfont-generator)
+    * 🛠 [IcoMoon App - Генерация иконочного шрифта в формате SVG, PDF & PNG](https://icomoon.io/app/)
+    * 📖 [Использование @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Используйте `preconnect` для быстрой загрузки ваших шрифтов:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
-    *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser
+    *Зачем:*
+    > Когда вы пришли на сайт, ваше устройство должно узнать, где находится ваш сайт, и с каким сервером ему нужно подключиться. Ваш браузер должен был связаться с DNS-сервером и дождаться завершения проверки перед получением ресурса (шрифты, файлы CSS ...).
 
-    *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested.
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too.
+    *Почему:*
+    > ⁃ Перед предварительной выборкой (prefetch) ваших веб-шрифтов, используйте webpagetest для оценки вашего веб-сайта.
+    ⁃ Ищите DNS-запросы с сине-зеленым цветом и обратите внимание на запрашиваемый хост.
+    ⁃ Предварительно выберите свои шрифты в `<head>` и добавьте в конечном счёте эти имена хостов, которые вам также нужно предварительно выбрать.
 
-    * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
-    * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
-    * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
-    * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 📖 [Быстрые Google-шрифты с помощью Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
+    * 📖 [Сделайте ваш сайт быстрее с помощью подсказок Preconnect | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
+    * 📖 [Окончальное руководство по подсказкам браузера: Preload, Prefetch и Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
+    * 📖 [Всеобъемлющее руководство по стратегиям загрузки шрифтов — zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Размер веб-шрифта:** ![medium] Размеры веб-шрифта не должны превышать 300 Кб (со всеми вариантами)
 
- * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
- 
-- [ ] **Prevent Flash of Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+ * 📖 [Байты шрифтов - Размер страницы](https://httparchive.org/reports/page-weight#bytesFont)
 
- * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
- * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
+- [ ] **Предотвратите использование Flash или невидимого текста:** ![medium] Избегайте использования прозрачного текста до загрузки веб-шрифта
 
-**[⬆ back to top](#table-of-contents)**
+ * 📖 [`font-display` для широких масс](https://css-tricks.com/font-display-masses/)
+ * 📖 [CSS font-display: Будущее отрисовки шрифтов в вебе](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-## Images
+**[⬆ вернуться к началу](#table-of-contents)**
+
+## Изображения
 
 ![images]
 
- * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
+ * 📖 [Байты изображений в 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Оптимизация изображений:** ![high] Ваши изображения оптимизированы, сжаты без прямого воздействия на конечного пользователя.
 
-    *Why:*
-    > Optimized images load faster in your browser and consume less data.
+    *Зачем:*
+    > Оптимизированные изображения загружаются быстрее в вашем браузере и потребляют меньше данных.
 
-    *How:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image)
-    ⁃ When it's possible, use fonts instead of text encoded in your images
-    ⁃ Use SVG
-    ⁃ Use a tool and specify a level compression under 85.
+    *Как:*
+    > ⁃ Попробуйте использовать эффекты CSS3, когда это возможно (вместо небольшого изображения)
+    ⁃ Когда это возможно, используйте шрифты вместо текста, закодированного в ваших изображениях
+    ⁃ Используйте SVG
+    ⁃ Используйте инструмент и укажите уровень сжатия ниже 85.
 
-    * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
-    * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
-    * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
-    * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
-    * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
+    * 📖 [Оптимизация изображений | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+    * 🛠 [TinyJPG – Сжатие JPEG-изображений разумно](https://tinyjpg.com/)
+    * 🛠 [Kraken.io - Онлайн-оптимизирование изображений](https://kraken.io/web-interface)
+    * 🛠 [Compressor.io - оптимизация и сжатие JPEG-фотографий и PNG-изображений](https://compressor.io/compress)
+    * 🛠 [Cloudinary - Инструмент анализа изображений](https://webspeedtest.cloudinary.com)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Формат изображений:** ![high] Выберите формат изображения должным образом.
 
-    *Why:*
-    > To ensure that your images don't slow your website, choose the format that will
+    *Зачем:*
+    > Чтобы гарантировать, что ваши изображения не замедлят ваш сайт, выберите нужный формат
 
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP)
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    *Почему:*
+    > ⁃ Используйте [Lighthouse](https://developers.google.com/web/tools/lighthouse/) для определения того, какие изображения в конечном счёте могут использовать **форматы нового поколения** (такие как JPEG 2000m JPEG XR или WebP)
+    ⁃ Сравните различные форматы, иногда использование PNG8 лучше, чем PNG16, иногда это не так.
 
-    * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
-    * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
-     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
-     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
+    * 📖 [Обслуживание изображений в форматах нового поколения | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
+    * 📖 [Какой правильный формат изображения для сайта? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
+    * 📖 [PNG8 - Явный победитель — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
+    * 📖 [8-бит против 16-бит - Какую цветную глубину вы должны использовать и почему это имеет значение - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Используйте векторное изображение против растровых:** ![medium] Prefer using vector image rather than bitmap images (when possible).
 
-    *Why:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+    *Зачем:*
+    > Векторные изображения (SVG), как правило, являются меньше, чем изображения, и SVG адаптивные и масштабируются. Эти изображения могут быть анимированы и изменены через CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Размеры изображений:** ![medium] Установите атрибуты `width` и `height` на элемент `<img>`, если окончательное отрисованное изображение известно.
 
-    *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    *Зачем:*
+    > Если заданы высота и ширина, пространство, необходимое для изображения, сохраняется при загрузке страницы. Однако без этих атрибутов браузер не знает размер изображения и не может зарезервировать для него подходящее пространство. Эффект будет заключаться в том, что раскладка страницы изменится во время загрузки (при загрузке изображений).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Избегайте использование изображений в формате Base64:** ![medium] В конечном итоге вы можете преобразовать крошечные изображения в base64, но на самом деле это не лучшая практика.
 
-    * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
-    * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
-    * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
-   * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
+    * 📖 [Кодирование и производительность Base64, Первая и вторая часть от Гарри Робертс (Harry Roberts)](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
+    * 📖 [Более пристальный взгляд на производительность изображения Base64 – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
+    * 📖 [Когда base64 кодирует изображения (а когда их нет) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
+    * 📖 [Base64 кодирует изображения для более быстрых страниц | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Ленивая загрузка:** ![medium] Изобарежения лениво загружены (Фолбэк с noscript всегда предоставлен).
 
-    *Why:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+    *Зачем:*
+    > Это улучшит время ответа текущей страницы, а затем предотвратит загрузку ненужных изображений, которые пользователю могут не понадобиться.
 
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**.
-    ⁃ Use a JavaScript plugin like to lazyload your images.
+    *Как:*
+    > ⁃ Используйте [Lighthouse](https://developers.google.com/web/tools/lighthouse/) для определения сколько **изображений находятся вне экрана**.
+    ⁃ Используйте плагин JavaScript для ленивой загрузки ваших изображений
 
-    * 🛠 [verlok/lazyload: Github](https://github.com/verlok/lazyload)
-    * 🛠 [aFarkas/lazysizes: Github](https://github.com/aFarkas/lazysizes/)
-    * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
-    * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
+    * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
+    * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
+    * 📖 [Ленивая загрузка изображений и видео | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+    * 📖 [5 блестящих способов ленивой загрузки изображений для быстрой загрузки страницы - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Адаптивные изображения:** ![medium] Обеспечьте отображение изображений, близких к размеру вашего дисплея.
 
-    *Why:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    *Зачем:*
+    > Маленьким устройствам не нужны изображения больше, чем их вьюпорт. Рекомендуется иметь несколько версий одного изображения разных размеров.
 
-    *How:*
-    > ⁃ Create different image sizes for the devices you want to target.
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    *Как:*
+    > ⁃ Создавайте разные размеры изображений для целевых устройств
+    ⁃ Используйте `srcset` and `picture` to deliver multiple variants of each image.
 
-     * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+     * 📖 [Адаптивные изображения - Learn web development | MDN](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться к началу](#table-of-contents)**
 
 ## JavaScript
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **Минифицикация JS:** ![high] Все файлы JavaScript минифицированы, комментарии, пробелы и новые строки удалены из производственных файлов *(все еще действительно при использовании HTTP/2)*.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+    *Зачем:*
+    > Удаление всех ненужных пробелов, комментариев и переводов строк уменьшит размер ваших файлов JavaScript и ускорит загрузку страниц вашего сайта и, очевидно, облегчит загрузку для вашего пользователя.
 
-    *How:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    *Как:*
+    > ⁃ Используйте инструменты, перечисленные ниже, чтобы автоматически минифицировать ваши файлы до или во время сборки или деплоя.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
-    * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
-    * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
+    * 🛠 [Онлайн-сжатие JavaScript](http://refresh-sf.com)
+    * 📖 [Короткое чтение: Чем отличается HTTP/2? Должны ли мы все ещё минифицировать и объединять?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **Нет JavaScript внутри:** ![medium] *(Только для сайта)* Избегайте наличия нескольких блоков кода с JavaScript, встроенных в середину страницы. Перегруппируйте свой JavaScript-код внутри внешних файлов или в конечном итоге в `<head>` или в конце вашей страницы (до `</body>`).
 
-    *Why:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    *Зачем:*
+    > Размещение встраиваемого кода JavaScript непосредственно в ваш `<body>` может замедлить вашу страницу, потому что он загружается, когда DOM строится. Лучший вариант — использовать внешние файлы с `async` или` defer`, чтобы избежать блокировки DOM. Другой вариант — разместить некоторые скрипты внутри `<head>`. В большинстве случаев это код аналитики или небольшой скрипт, который необходимо загрузить до того, как DOM начнёт обрабатываться.
 
-    *How:*
-    > ⁃ Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    *Как:*
+    > ⁃ Убедитесь, что все ваши файлы загружены с помощью `async` или` defer` и разумно определяют код, который вам нужно загрузить в `<head>`.
 
-     * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
+     * 📖 [11 советов по оптимизации JavaScript и повышению скорости загрузки сайта](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Неблокирующий JavaScript:** ![high] Файлы JavaScript загружаются асинхронно, используя `async` или отложенно с использованием атрибута `defer`.
 
     ```html
-    <!-- Defer Attribute -->
+    <!-- Атрибут defer  -->
     <script defer src="foo.js">
 
-    <!-- Async Attribute -->
+    <!-- Атрибут async -->
     <script async src="foo.js">
     ```
 
-    *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    *Зачем:*
+    > JavaScript блокирует нормальный синтаксический анализ HTML-документа, поэтому, когда парсер доходит до тега `<script>` (особенно внутри `<head>`), он перестает извлекать и запускать его. Добавление `async` или` defer` настоятельно рекомендуется, если ваши скрипты размещены в верхней части страницы, менее полезно, если находятся перед тегом `</ body>`. Но хорошая практика всегда использовать эти атрибуты, чтобы избежать каких-либо проблем с производительностью.
 
-    *How:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag.
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    *Как:*
+    > ⁃ Добавьте `async` (если скрипт не полагается на другие скрипты) или `defer` (если скрипт опирается на асинхронный скрипт или полагается на него) в качесиве атрибута вашего тега скрипта.
+     ⁃ Если у вас небольшие скрипты, возможно, используйте встроенное подключение скрипта выше подключения асинхронных скриптов.
 
-    * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+    * 📖 [Удалить блокирующий отрисовку JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **JS-библиотеки оптимизированы и обновлены:** ![medium] Все библиотеки JavaScript, используемые в вашем проекте, необходимы (желательно использовать обычный JavaScript для простого функционала), обновлены до последней версии и не перегружают ваш JavaScript ненужными методами.
 
-    *Why:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+    *Зачем:*
+    > В большинстве случаев новые версии поставляются с исправлением оптимизации и безопасности. Вам следует использовать наиболее оптимизированный код для ускорения проекта и обеспечить, чтобы вы не замедляли ваш сайт или приложение без устаревшего плагина.
 
-    *How:*
-    > ⁃ If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
+    *Как:*
+    > ⁃ Если ваш пакет использует NPM-пакеты, [npm-check](https://www.npmjs.com/package/npm-check) — довольно интересная утилита для обновления ваших библиотек.
 
-    * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
-    * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
+    * 📖 [Вам может не понадобиться jQuery](http://youmightnotneedjquery.com/)
+    * 📖 [Обычный JavaScript для разработки мощных веб-приложений](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Проверьте ограничение размера зависимостей:** ![low] Обеспечьте использование разумных внешних библиотек, большую часть времени вы можете использовать более легкую библиотеку для одной и той же функциональности.
 
-    *Why:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+    *Зачем:*
+    > У вас может возникнуть соблазн использовать один из 745 000 пакетов, которые вы можете найти на [npm](https://www.npmjs.com/), но вам нужно выбрать лучший пакет для ваших нужд. Например, MomentJS - это потрясающая библиотека, но с множеством методов, которые вы никогда не сможете использовать, поэтому был создан Day.js. Почувствуйте разницу: 2 Кб против 16,4 Кб для Moment.
 
-    *How:*
-    > ⁃ Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    *Как:*
+    > ⁃ Всегда сравнивайте и выбирайте лучшую и более легкую библиотеку для своих нужд. Вы также можете использовать такие инструменты, как [npm trend](http://www.npmtrends.com/), чтобы сравнить количество загрузок пакетов NPM или [Bundlephobia](https://bundlephobia.com/), чтобы узнать размер ваших зависимостей.
 
-    * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
+    * 🛠 [ai/size-limit: Предотвращение раздувание JS-библиотек. Если вы случайно добавляете большую зависимость, Size Limit выдаст ошибку.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
-    * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
+    * 📖 [Ограничение размера: Сделайте веб легче — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **Профилирование JavaScript:** ![medium] Проверьте проблемы с производительностью в ваших JavaScript-файлах (и CSS тоже).
 
-    *Why:*
-    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
+    *Зачем:*
+    > Сложность JavaScript может замедлить производительность во время выполнения. Идентификация этих возможных проблем имеет важное значение для обеспечения максимально плавного пользователем вашего проекта.
 
-    *How:*
-    > ⁃ Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    *Как:*
+    > ⁃ Используйте инструмент «Временная шкала» в инструменте разработчика Chrome для оценки событий сценариев и найдите тот, который может занять слишком много времени.
 
-     * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
-    * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
-    * 📖 [How to Record Heap Snapshots  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
-    * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
+     * 📖 [Ускорить выполнение JavaScript | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
+    * 📖 [Профилирование JavaScript с помощью инструментов разработчика Chrome — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
+    * 📖 [Как записывать снимки кучи | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
+    * 📖 [Chapter 22 - Профилирование фронтенда - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться в начало](#table-of-contents)**
 
-## Server
+## Сервер
 
 ![server-side]
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Размер страницы < 1500 Кб (в идеале < 500 Кб):** ![high] Уменьшите размер страницы, а также ресурсов настолько, сколько сможете.
 
-    *Why:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    *Почему:*
+    > В идеале вы должны пытаться ориентироваться к < 500 Кб, но состояние веба показывает, что медиана Килобитов составляет около 1500 Кб (даже на мобильных устройствах). В зависимости от ваших целевых пользователей, подключений, устройств важно уменьшить максимально возможное количество окончательных килобайтов, чтобы иметь лучшее пользовательское взаимодействие, насколько это возможно.
 
-    *How:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    *Как:*
+    > - Все правила внутри чек-листа производительности фронтенда помогут вам максимально сократить размер ресурсов и кода.
 
-    * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
-    * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
-    * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
+    * 📖 [Размер страницы](https://httparchive.org/reports/page-weight#bytesTotal)
+    * 🛠 [Сколько стоит посещение моего сайта?](https://whatdoesmysitecost.com/)
+    * 🛠 [Измерить полный размер страницы в инструментах разработчика Chrome - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Время загрузки страницы < 3 секунд:** ![high] Сократите максимально возможное время загрузки страницы для того, чтобы быстро доставить контент своим пользователям.
 
-    *Why:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
-    
-    *How:*
-    >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    *Почему:*
+    > Чем быстрее сайт или приложение, тем меньше вероятность увеличения отказов, другими словами у вас меньше шансов потерять вашего пользователя или будущего клиента. Достаточно исследований по этому вопросу доказывают это.
 
-    * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
-    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
-    * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
+    *Как:*
+    >  ⁃ Использовать онлайн-инструмент, такой как [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) или [WebPageTest](https://www.webpagetest.org/) для анализа что может замедлить работу и использовать чек-лист производительности фронтенда, чтобы улучшить время загрузки.
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+    * 🛠 [Сравните скорость вашего мобильного сайта](https://www.thinkwithgoogle.com/feature/mobile/)
+    * 🛠 [Проверьте скорость и производительность вашего мобильного сайта - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
+    * 📖 [Среднее время загрузки для 2018 - Как вы сравниваете? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-    * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
-    * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
-    * 🛠 [Global latency testing tool](https://latency.apex.sh)
+- [ ] **Время загрузки первого байта < 1.3 секунды:** ![high] Сократите на столько, сколько сможете, время, когда ваш браузер ждет, прежде чем получать данные.
 
-* [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+    * 📖 [Что такое TTFB в инструментах разработчика и что с этим делать?](https://scaleyourcode.com/blog/article/27)
+    * 📖 [Мониторинг ваших серверов с бесплатным инструментами — это легко](https://scaleyourcode.com/blog/article/7)
+    * 🛠 [Инструмент тестирования глобальной латентности](https://latency.apex.sh)
 
-    *Why:*
-    > cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+* [ ] **Размер кук:** ![medium] Если вы используете куки, то проверьте, что каждый файл кук не превышает 4096 байт, а ваше доменное имя содержит не более 20 файлов кук.
 
-    *How:*
-    > ⁃ Eliminate unnecessary cookies
+    *Почему:*
+    > Куки передаются в HTTP-заголовках между серверами и браузерами. Важно максимально уменьшить размер файлов кук, чтобы минимизировать воздействие на время ответа пользователя.
 
-    * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
-    * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
-    * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
-    * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
+    *Как:*
+    > ⁃ Исключить ненужные куки
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+    * 📖 [Спецификация Cookie: RFC 6265](https://tools.ietf.org/html/rfc6265)
+    * 📖 [Куки HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies)
+    * 🛠 [Ограничения кук в браузере](http://browsercookielimits.squawky.net/)
+    * 📖 [Производительность сайта: Куки не такие замечательные на вкус - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
+    * 📖 [Передовые практики по веб-производительности от Google #3: Минимизировать накладные расходы запроса - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Минизация HTTP-запросов:** ![high] Обязательно убедитесь, что каждый запрошенный файл имеет важное значение для вашего веб-сайта или приложения.
 
- * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
- * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
+- [ ] **Используйте CDN для доставки ваших ресурсов:** ![medium] Используйте CDN для быстрой доставки вашего содержимого по всему миру.
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website using HTTPS and serve files coming from source using HTTP.
+ * 📖 [10 советов по оптимизации производительности CDN - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
+ * 📖 [Кеширование HTTP | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **Обслуживайте файлы из одинакового протокола:** ![high] Избегайте использования вашего сайта с помощью HTTPS и отдачи входящих файлов по протоколу HTTP.
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Обрабатывать доступные файлы:** ![high] Избегайте запросов с недоступными файлами (404).
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high]
+- [ ] **Установить HTTP-заголовки кеширования корректно:** ![high] Установите HTTP-заголовки, чтобы избежать дорогостоящего числа круговых задержек (roundtrips) между браузером и сервером.
 
- * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
- * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+- [ ] **Сжатие GZIP / Brotli включено:** ![high]
+
+ * 🛠 [Проверьте работу сжатия GZIP](https://checkgzipcompression.com/)
+ * 🛠 [Проверьте работы сжатия Brotli](https://tools.keycdn.com/brotli-test)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться в начало](#table-of-contents)**
 
 ---
-## Performances and JS Frameworks
+## Производительность JS-фреймворков
 
 ### Vue
 
 ### React
 
- * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
- * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
- * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+ * 📖 [Оптимизация производительности - React](https://reactjs.org/docs/optimizing-performance.html)
+ * 📖 [Манипуляция изображениями React | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
+ * 📖 [Отладка производительности React с 16 версии и инструментов разработчика Chrome.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
 
 ---
 
-## Translations
+## Переводы
 
-The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
+Чек-лист производительности фронтенда хочет быть доступным и на других языках! Не стесняйтесь принять участие в переводе!
 
-* 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
-* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
+* 🇵🇹 Португальский: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
+* 🇨🇳 Китайский: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
 
-## Contributing
+## Участие в проекте
 
-**Open an issue or a pull request to suggest changes or additions.**
+**Откройте ишью или пулреквест to suggest changes or additions.**
 
-## Support
+## Поддержка
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+Если у вас есть какие-либо вопросы или предложения, не стесняйтесь использовать Gitter или Twitter:
 
-* [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Чат на Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## Автор
 
-**Build with ❤️ by [David Dias](https://github.com/thedaviddias) at [@influitive](https://influitive.com/) 🇨🇦**
+**Сделано с ❤️ [Дэвидом Диазом (David Dias)](https://github.com/thedaviddias) в [@influitive](https://influitive.com/) 🇨🇦**
 
-## Contributors
+## Контрибьюторы
 
-This project exists thanks to all the people who contribute. [[Contribute]](.github/CONTRIBUTING.md).
+Этот проект существует благодаря тем людям, которые вносят свой вклад. [[Принять участие]](.github/CONTRIBUTING.md).
 
 ## License
 
 [MIT](LICENCE.md)
 
-All icons are provided by [Icons8](https://icons8.com/)
+Все иконки предоставлены [Icons8](https://icons8.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ вернуться в начало](#table-of-contents)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
