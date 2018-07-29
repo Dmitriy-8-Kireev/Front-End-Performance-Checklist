@@ -25,6 +25,14 @@
 <p align="center">
   <a href="#Как-to-use">Как использовать</a> • <a href="#contributing">Участие в проекте</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
+  <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
+  <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
+  <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+</p>
+
 <p align="center">
     <span>Другие чек-листы:</span>
     <br>
