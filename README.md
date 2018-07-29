@@ -28,7 +28,7 @@
 <p align="center">
     <span>Другие чек-листы:</span>
     <br>
-  🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
+  🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Чек-лист фронтенда</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Чек-лист дизайна фронтенда</a>
 </p>
 
 ## Содержание
@@ -71,6 +71,8 @@
  * 🛠 [Dotcom-Tools - Тест скорости сайта и проверка веб-производительности](https://www.dotcom-tools.com/website-speed-test.aspx)
  * 🛠 [Pingdom - Мониторинг доступности сервера и сайта](https://www.pingdom.com/product/uptime-monitoring/) ([Ссылка на бесплатную регистрацию](https://www.pingdom.com/free))
  * 🛠 [Uptime Robot](https://uptimerobot.com)
+ * 🛠 [SpeedCurve: Мониторинг производительности фронтенда](https://speedcurve.com)
+ * 🛠 [PWMetrics - Инструмент командной строки и библиотека для сбора метрик производительности](https://github.com/paulirish/pwmetrics)
 
 ### Справочные руководства
 
@@ -574,6 +576,7 @@
 
 * 🇵🇹 Португальский: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
 * 🇨🇳 Китайский: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
+* 🇫🇷 Французский: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
 
 ## Участие в проекте
 
