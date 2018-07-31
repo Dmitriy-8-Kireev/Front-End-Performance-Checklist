@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#Как-to-use">Как использовать</a> • <a href="#contributing">Участие в проекте</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#Как-использовать">Как использовать</a> • <a href="#Участие-в-проекте">Участие в проекте</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
