@@ -86,7 +86,7 @@
 
 ### Справочные руководства
 
- * 📹 [Стоимость JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
+ * 📹 [Стоимость JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([текстовая версия](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * 📖 [Начало работы с анализом производительности во время выполнения | Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [Состояние веба | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Размер страницы не имеет значения](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
@@ -355,6 +355,7 @@
     * 🛠 [Kraken.io - Онлайн-оптимизирование изображений](https://kraken.io/web-interface)
     * 🛠 [Compressor.io - Оптимизация и сжатие JPEG-фотографий и PNG-изображений](https://compressor.io/compress)
     * 🛠 [Cloudinary - Инструмент анализа изображений](https://webspeedtest.cloudinary.com)
+    * 🛠 [SVGOMG - Оптимизация векторных графических файлов SVG](https://jakearchibald.github.io/svgomg/)
 
 * [ ] **Формат изображений:** ![high] Выберите формат изображения должным образом.
 
