@@ -87,7 +87,7 @@
 
 ### Справочные руководства
 
- * 📹 [Цена JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([текстовая версия](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
+ * 📹 [Цена JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([текстовая версия](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)) ([🇷🇺 перевод](https://habr.com/company/ruvds/blog/419369/))
  * 📖 [Начало работы с анализом производительности во время выполнения | Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [Состояние веба | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Размер страницы не имеет значения](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
