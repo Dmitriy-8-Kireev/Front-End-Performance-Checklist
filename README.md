@@ -84,7 +84,8 @@
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Мониторинг производительности фронтенда](https://speedcurve.com)
  * 🛠 [PWMetrics - Инструмент командной строки и библиотека для сбора метрик производительности](https://github.com/paulirish/pwmetrics)
-* 🛠 [Varvy - Оптимизация скорости страницы]( https://varvy.com/pagespeed/)
+* 🛠 [Varvy - Оптимизация скорости страницы](https://varvy.com/pagespeed/)
+* 🛠 [Lighthouse - Google](https://developers.google.com/web/tools/lighthouse/#devtools)
 
 ### Справочные руководства
 
