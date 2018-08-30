@@ -86,7 +86,10 @@
  * 🛠 [PWMetrics - Инструмент командной строки и библиотека для сбора метрик производительности](https://github.com/paulirish/pwmetrics)
 * 🛠 [Varvy - Оптимизация скорости страницы](https://varvy.com/pagespeed/)
 * 🛠 [Lighthouse - Google](https://developers.google.com/web/tools/lighthouse/#devtools)
+* 🛠 [Расширение для браузера Checkbot - Проверяет веб-производительность на соответствие передовым практикам](https://www.checkbot.io/)
+* 🛠 [Yellow Lab Tools | Онлайн-тест для помощи ускорения тяжелых веб-страниц](https://yellowlab.tools/)
 
+ 
 ### Справочные руководства
 
  * 📹 [Цена JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([текстовая версия](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)) ([🇷🇺 перевод](https://habr.com/company/ruvds/blog/419369/))
@@ -95,6 +98,7 @@
  * 📖 [Размер страницы не имеет значения](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
  * 📖 [Varvy - Глоссарий веб-производительности](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Обновлённая коллекция ценных ресурсов веб-производительности](https://github.com/fabkrum/web-performance-resources)
+* 📖 [Checkbot - Передовые практики по загрузке веб-проектов](https://www.checkbot.io/guide/speed/)
 ---
 
 ## HTML
@@ -581,6 +585,9 @@
 
 ---
 ## Производительность JS-фреймворков
+
+### Angular
+ * 📖 [Чек-лист производительности Angular](https://github.com/mgechev/angular-performance-checklist)
 
 ### React
 
